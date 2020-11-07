@@ -42,7 +42,7 @@ print ('time: ', time)
 
 a = int(input())
 a = str(a)
-b = int(a)+int(a+a)+int(a+a+a)
+b = int(a)+int(a*2)+int(a*3)
 print(b)
 
 """4. Пользователь вводит целое положительное число. 
@@ -66,9 +66,9 @@ costs = int(input())
 profit = income - costs
 if profit < 0:
     print('negative profit :(')
-if profit == 0:
+elif profit == 0:
     print('0 profit')
-if profit > 0:
+elif profit > 0:
     profitability = profit / income
     print('positive profit', 'profitability = ', profitability)
     print('type workers count')
