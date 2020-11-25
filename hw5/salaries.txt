@@ -1,0 +1,4 @@
+vasyan 20340
+petya 34333
+kolya 19000
+rabtestirovshik 5000
